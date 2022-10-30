@@ -1,0 +1,226 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+/*=============================*/
+     /* MENU BAR SECTION */
+/*=============================*/
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
+}
+.nav-item {
+    font-size: 18px;
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
+}
+/*=============================*/
+       /* HERO SECTION */
+/*=============================*/
+.hero-part {
+    background: url("./BG_STRICT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-overlay {
+    padding: 200px 0;
+    background: rgba(0, 0, 0, 0.0);
+}
+.hero-con h1 {
+    font-size: 120px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+.hero-con p {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+.hero-btn a {
+    height: 40px;
+    width: 160px;
+    background: transparent;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 35px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    margin-top: 30px;
+    border: 1px solid #15a4fa;
+}
+/*=============================*/
+      /* DESIGN SECTION */
+/*=============================*/
+.design-part {
+    padding: 60px 0;
+    background: #f6f9f9; 
+}
+.design-con-main h3 {
+    font-size: 38px;
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
+}
+.design-con-main p {
+    font-size: 18px;
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+}
+/*=============================*/
+      /* SERVICE SECTION */
+/*=============================*/
+.service-part {
+    padding: 60px 0;
+}
+.service-con h4 {
+    font-size: 22px;
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
+}
+.service-con p {
+    font-size: 18px;
+    color: #b0b0b0;
+    font-family: 'Lato', sans-serif;
+}
+.service-icon {
+    padding-bottom: 30px;
+}
+/*=============================*/
+     /* PORTFOLIO SECTION */
+/*=============================*/
+.port-part {
+    padding: 60px 0;
+    background: #f6f9f9;
+}
+.about-head h4 {
+    font-size: 41px;
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
+}
+.about-head p {
+    padding-top: 15px;
+    padding-bottom: 55px;
+    font-size: 15px;
+    color: #a7a8a8;
+    font-family: 'Lato', sans-serif;
+}
+.port-image {
+    position: relative;
+}
+.port-img-overlay {
+    height: 100%;
+    width: 100%;
+    background: #26a5f4e5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.port-img-overlay a {
+    height: 30px;
+    width: 30px;
+    border-radius:5%;
+    color: #fff;
+    border:1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/*=============================*/
+     /* CONTACT SECTION */
+/*=============================*/
+.contact-part {
+    padding: 50px 0;
+    background: linear-gradient(rgba(0,0,0,0.7),#2d394d),url("./Contact_BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about-head h4 {
+    font-size: 41px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+.about-head p {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: #8e8e90;
+}
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form input .contact-form-chkbox {
+    background: red;
+}
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 15px 40px;
+    outline: none;
+    color: #999999;
+    transition: 0.3s;
+}
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #34495e;
+}
+.textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn {
+    float: right;
+    border: 1px solid #15a4fa;
+    color: #fff;
+    background: #111;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 3%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-form-btn:hover {
+    background: #111;
+}
+.contact-form-btn:hover {
+    border: 0;
+}
+/*=============================*/
+     /* FOOTER SECTION */
+/*=============================*/
+.footer-part {
+    padding: 3px 0;
+    background: #f6f9f9;
+}
+.footer-part p {
+    color: #aeafaf;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 25px;
+}
+.footer-icon { 
+    gap: 5px;
+    padding-top: 15px;
+    font-size: 2rem;
+}
+ul {
+    list-style-type: none;
+}
+
